@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Оформление заказа</title>
+    <link rel="stylesheet" href="assets/css/normalize/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style_sass.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+</head>
+
+<body>
+<div class="full_page">
+    <div class="full_content">
+        <header class="header">
+            <div class="header-flex">
+                <div class="header-left">
+                    <a class="logo" href="index.html"><img src="assets/img/logo.png" alt="Лого"><span
+                            class="logo-text">BRAN<span class="logo-text-D">D</span></span></a>
+                    <form class="form" action="#">
+
+                        <div class="browse">Browse&nbsp;&nbsp;<i class="fas fa-caret-down"></i>
+
+                            <div class="drop_menu">
+                                <h3 class="drop_menu_head">Women</h3>
+                                <div class="drop_menu_hr"></div>
+                                <ul class="drop_menu_ul">
+                                    <li class="drop_menu_list"><a class="drop_menu_link" href="#">Dresses</a></li>
+                                    <li class="drop_menu_list"><a class="drop_menu_link" href="#">Tops</a></li>
+                                    <li class="drop_menu_list"><a class="drop_menu_link" href="#">Sweaters/Knits</a></li>
+                                    <li class="drop_menu_list"><a class="drop_menu_link" href="#">Jackets/Coats</a></li>
+                                    <li class="drop_menu_list"><a class="drop_menu_link" href="#">Blazers</a></li>
+                                    <li class="drop_menu_list"><a class="drop_menu_link" href="#">Denim</a></li>
+                                    <li class="drop_menu_list"><a class="drop_menu_link" href="#">Leggins/Pants</a></li>
+                                    <li class="drop_menu_list"><a class="drop_menu_link" href="#">Skirts/Short</a>s</li>
+                                    <li class="drop_menu_list"><a class="drop_menu_link" href="#">Accessories</a></li>
+                                </ul>
+
+                                <h3 class="drop_menu_head">Men</h3>
+                                <div class="drop_menu_hr"></div>
+                                <ul class="drop_menu_ul">
+                                    <li class="drop_menu_list"><a class="drop_menu_link" href="#">Tees/Tank tops</a></li>
+                                    <li class="drop_menu_list"><a class="drop_menu_link" href="#">Shirts/Polos</a></li>
+                                    <li class="drop_menu_list"><a class="drop_menu_link" href="#">Sweaters</a></li>
+                                    <li class="drop_menu_list"><a class="drop_menu_link" href="#">Sweatshirts/Hoodies</a>
+                                    </li>
+                                    <li class="drop_menu_list"><a class="drop_menu_link" href="#">Blazers</a></li>
+                                    <li class="drop_menu_list"><a class="drop_menu_link" href="#">Jackets/vests</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <input class="input" type="text" placeholder="Search for Item..." required>
+                        <button class="submit" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="header-right">
+                    <div class="cart-icon">
+                        <a class="busket" href="shoppingcart.html"></a>
+                    </div>
+                    <a class="my-acc" href="#">My Account</a>
+                </div>
+
+            </div>
+        </header>
+
+        <nav class="navigation">
+            <ul class="menu">
+                <li class="menu_list"><a class="menu_link" href="index.html">HOME</a></li>
+                <li class="menu_list"><a class="menu_link" href="product.html">MAN</a>
+                    <div class="mega_menu">
+                        <div class="mega-flex">
+                            <h3 class="mega_menu_head">Women</h3>
+                            <ul class="mega_menu_ul">
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Dresses</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Tops</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Sweaters/Knits</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Jackets/Coats</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Blazers</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Denim</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Leggins/Pants</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Skirts/Short</a>s</li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-flex">
+                            <h3 class="mega_menu_head">Women</h3>
+                            <ul class="mega_menu_ul">
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Dresses</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Tops</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Sweaters/Knits</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Jackets/Coats</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Blazers</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Denim</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Leggins/Pants</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Skirts/Short</a>s</li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-flex">
+                            <h3 class="mega_menu_head">Women</h3>
+                            <ul class="mega_menu_ul">
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Dresses</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Tops</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Sweaters/Knits</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Jackets/Coats</a></li>
+                            </ul>
+                            <img class="mega_menu_img" src="assets/img/mega_menu_pic.jpg" alt="Рисунок">
+                        </div>
+                    </div>
+                </li>
+                <li class="menu_list"><a class="menu_link" href="singlepage.html">WOMAN</a>
+                    <div class="mega_menu">
+                        <div class="mega-flex">
+                            <h3 class="mega_menu_head">Women</h3>
+                            <ul class="mega_menu_ul">
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Dresses</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Tops</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Sweaters/Knits</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Jackets/Coats</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Blazers</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Denim</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Leggins/Pants</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Skirts/Short</a>s</li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-flex">
+                            <h3 class="mega_menu_head">Women</h3>
+                            <ul class="mega_menu_ul">
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Dresses</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Tops</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Sweaters/Knits</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Jackets/Coats</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Blazers</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Denim</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Leggins/Pants</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Skirts/Short</a>s</li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-flex">
+                            <h3 class="mega_menu_head">Women</h3>
+                            <ul class="mega_menu_ul">
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Dresses</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Tops</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Sweaters/Knits</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Jackets/Coats</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="menu_list"><a class="menu_link" href="#">KIDS</a>
+                    <div class="mega_menu">
+                        <div class="mega-flex">
+                            <h3 class="mega_menu_head">Women</h3>
+                            <ul class="mega_menu_ul">
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Dresses</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Tops</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Sweaters/Knits</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Jackets/Coats</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Blazers</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Denim</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Leggins/Pants</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Skirts/Short</a>s</li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-flex">
+                            <h3 class="mega_menu_head">Women</h3>
+                            <ul class="mega_menu_ul">
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Dresses</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Tops</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Sweaters/Knits</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Jackets/Coats</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Blazers</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Denim</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Leggins/Pants</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Skirts/Short</a>s</li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-flex">
+                            <h3 class="mega_menu_head">Women</h3>
+                            <ul class="mega_menu_ul">
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Dresses</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Tops</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Sweaters/Knits</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Jackets/Coats</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu_list"><a class="menu_link" href="#">ACCESSORIES</a>
+                    <div class="mega_menu">
+                        <div class="mega-flex">
+                            <h3 class="mega_menu_head">Women</h3>
+                            <ul class="mega_menu_ul">
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Dresses</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Tops</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Sweaters/Knits</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Jackets/Coats</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Blazers</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Denim</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Leggins/Pants</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Skirts/Short</a>s</li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-flex">
+                            <h3 class="mega_menu_head">Women</h3>
+                            <ul class="mega_menu_ul">
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Dresses</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Tops</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Sweaters/Knits</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Jackets/Coats</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Blazers</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Denim</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Leggins/Pants</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Skirts/Short</a>s</li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-flex">
+                            <h3 class="mega_menu_head">Women</h3>
+                            <ul class="mega_menu_ul">
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Dresses</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Tops</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Sweaters/Knits</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Jackets/Coats</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu_list"><a class="menu_link" href="#">FEATURED</a>
+                    <div class="mega_menu">
+                        <div class="mega-flex">
+                            <h3 class="mega_menu_head">Women</h3>
+                            <ul class="mega_menu_ul">
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Dresses</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Tops</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Sweaters/Knits</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Jackets/Coats</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Blazers</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Denim</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Leggins/Pants</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Skirts/Short</a>s</li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-flex">
+                            <h3 class="mega_menu_head">Women</h3>
+                            <ul class="mega_menu_ul">
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Dresses</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Tops</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Sweaters/Knits</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Jackets/Coats</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Blazers</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Denim</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Leggins/Pants</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Skirts/Short</a>s</li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-flex">
+                            <h3 class="mega_menu_head">Women</h3>
+                            <ul class="mega_menu_ul">
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Dresses</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Tops</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Sweaters/Knits</a></li>
+                                <li class="mega_menu_list"><a class="mega_menu_link" href="#">Jackets/Coats</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu_list"><a class="menu_link" href="#">HOT DEAL</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu_section">
+            <p class="menu_section_text_left">NEW ARRIVALS</p>
+            <div class="menu_section_right">
+                <a class="menu_section_item_link" href="index.html">HOME/</a>
+                <a class="menu_section_item_link" href="#">MEN/</a>
+                <a class="menu_section_item_link_past" href="#"><span>NEW ARRIVALS</span></a></div>
+        </div>
+
+        <div class="checkout">
+            <div class="checkout_wrap">
+                <details class="checkout_details">
+                    <summary class="checkout_shipping_address_heading">01. SHIPPING ADDRESS</summary>
+                    <div class="checkout_shipping_address">
+                        <div class="checkout_shipping_address_guest_register">
+                            <p class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                Check as a guest or register</p>
+                            <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__1">
+                                Register with us for future convenience</p>
+                            <form class="checkout_shipping_address_guest_register_form" action="">
+                                <label class="checkout_shipping_address_guest_register_radio_label">
+                                    <input class="checkout_shipping_address_guest_register_radio"
+                                           name="guest_register" type="radio">checkout as guest
+                                </label>
+                                <label class="checkout_shipping_address_guest_register_radio_label">
+                                    <input class="checkout_shipping_address_guest_register_radio"
+                                           name="guest_register" type="radio" checked>register
+                                </label>
+                                <p class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__2">
+                                    register and save time!</p>
+                                <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__2">
+                                    Register with us for future convenience</p>
+                                <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__2">
+                                    <i class="fas fa-angle-double-right"></i>
+                                    Fast and easy checkout</p>
+                                <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__3">
+                                    <i class="fas fa-angle-double-right"></i>
+                                    Easy access to your order history and status</p>
+                                <button class="checkout_shipping_address_guest_register_form_button">continue</button>
+                            </form>
+                        </div>
+                        <div class="checkout_shipping_address_login">
+                            <p class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                Already registed?</p>
+                            <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__4">
+                                Please log in below</p>
+                            <form class="checkout_shipping_address_login_form" action="">
+                                <label class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                    EMAIL ADDRESS<span class="checkout_span_red">*</span>
+                                </label>
+                                <input class="input_mar_bott checkout_shipping_address_login_mail_input" type="text">
+                                <label class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                    password<span class="checkout_span_red">*</span>
+                                </label>
+                                <input class="input_mar_bott checkout_shipping_address_login_mail_input" type="text">
+                                <p class="required_fields checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__red">
+                                    * Required Fileds</p>
+                                <div class="checkout_shipping_address_login_form_button">
+                                    <button class="checkout_shipping_address_guest_register_form_button">log in</button>
+                                    <a href="#" class="checkout_shipping_address_guest_register_form_forgot_password">Forgot
+                                        Password ?
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </details>
+            </div>
+
+            <div class="checkout_wrap">
+                <details class="checkout_details">
+                    <summary class="checkout_shipping_address_heading">02. BILLING INFOMATION</summary>
+                    <div class="checkout_shipping_address">
+                        <div class="checkout_shipping_address_guest_register">
+                            <p class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                Check as a guest or register</p>
+                            <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__1">
+                                Register with us for future convenience</p>
+                            <form class="checkout_shipping_address_guest_register_form" action="">
+                                <label class="checkout_shipping_address_guest_register_radio_label">
+                                    <input class="checkout_shipping_address_guest_register_radio"
+                                           name="guest_register" type="radio">checkout as guest
+                                </label>
+                                <label class="checkout_shipping_address_guest_register_radio_label">
+                                    <input class="checkout_shipping_address_guest_register_radio"
+                                           name="guest_register" type="radio" checked>register
+                                </label>
+                                <p class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__2">
+                                    register and save time!</p>
+                                <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__2">
+                                    Register with us for future convenience</p>
+                                <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__2">
+                                    <i class="fas fa-angle-double-right"></i>
+                                    Fast and easy checkout</p>
+                                <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__3">
+                                    <i class="fas fa-angle-double-right"></i>
+                                    Easy access to your order history and status</p>
+                                <button class="checkout_shipping_address_guest_register_form_button">continue</button>
+                            </form>
+                        </div>
+                        <div class="checkout_shipping_address_login">
+                            <p class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                Already registed?</p>
+                            <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__4">
+                                Please log in below</p>
+                            <form class="checkout_shipping_address_login_form" action="">
+                                <label class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                    EMAIL ADDRESS<span class="checkout_span_red">*</span>
+                                </label>
+                                <input class="input_mar_bott checkout_shipping_address_login_mail_input" type="text">
+                                <label class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                    password<span class="checkout_span_red">*</span>
+                                </label>
+                                <input class="input_mar_bott checkout_shipping_address_login_mail_input" type="text">
+                                <p class="required_fields checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__red">
+                                    * Required Fileds</p>
+                                <div class="checkout_shipping_address_login_form_button">
+                                    <button class="checkout_shipping_address_guest_register_form_button">log in</button>
+                                    <a href="#" class="checkout_shipping_address_guest_register_form_forgot_password">Forgot
+                                        Password ?
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </details>
+            </div>
+
+            <div class="checkout_wrap">
+                <details class="checkout_details">
+                    <summary class="checkout_shipping_address_heading">03. SHIPPING INFORMATION</summary>
+                    <div class="checkout_shipping_address">
+                        <div class="checkout_shipping_address_guest_register">
+                            <p class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                Check as a guest or register</p>
+                            <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__1">
+                                Register with us for future convenience</p>
+                            <form class="checkout_shipping_address_guest_register_form" action="">
+                                <label class="checkout_shipping_address_guest_register_radio_label">
+                                    <input class="checkout_shipping_address_guest_register_radio"
+                                           name="guest_register" type="radio">checkout as guest
+                                </label>
+                                <label class="checkout_shipping_address_guest_register_radio_label">
+                                    <input class="checkout_shipping_address_guest_register_radio"
+                                           name="guest_register" type="radio" checked>register
+                                </label>
+                                <p class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__2">
+                                    register and save time!</p>
+                                <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__2">
+                                    Register with us for future convenience</p>
+                                <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__2">
+                                    <i class="fas fa-angle-double-right"></i>
+                                    Fast and easy checkout</p>
+                                <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__3">
+                                    <i class="fas fa-angle-double-right"></i>
+                                    Easy access to your order history and status</p>
+                                <button class="checkout_shipping_address_guest_register_form_button">continue</button>
+                            </form>
+                        </div>
+                        <div class="checkout_shipping_address_login">
+                            <p class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                Already registed?</p>
+                            <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__4">
+                                Please log in below</p>
+                            <form class="checkout_shipping_address_login_form" action="">
+                                <label class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                    EMAIL ADDRESS<span class="checkout_span_red">*</span>
+                                </label>
+                                <input class="input_mar_bott checkout_shipping_address_login_mail_input" type="text">
+                                <label class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                    password<span class="checkout_span_red">*</span>
+                                </label>
+                                <input class="input_mar_bott checkout_shipping_address_login_mail_input" type="text">
+                                <p class="required_fields checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__red">
+                                    * Required Fileds</p>
+                                <div class="checkout_shipping_address_login_form_button">
+                                    <button class="checkout_shipping_address_guest_register_form_button">log in</button>
+                                    <a href="#" class="checkout_shipping_address_guest_register_form_forgot_password">Forgot
+                                        Password ?
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </details>
+            </div>
+
+            <div class="checkout_wrap">
+                <details class="checkout_details">
+                    <summary class="checkout_shipping_address_heading">04. SHIPPING METHOD</summary>
+                    <div class="checkout_shipping_address">
+                        <div class="checkout_shipping_address_guest_register">
+                            <p class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                Check as a guest or register</p>
+                            <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__1">
+                                Register with us for future convenience</p>
+                            <form class="checkout_shipping_address_guest_register_form" action="">
+                                <label class="checkout_shipping_address_guest_register_radio_label">
+                                    <input class="checkout_shipping_address_guest_register_radio"
+                                           name="guest_register" type="radio">checkout as guest
+                                </label>
+                                <label class="checkout_shipping_address_guest_register_radio_label">
+                                    <input class="checkout_shipping_address_guest_register_radio"
+                                           name="guest_register" type="radio" checked>register
+                                </label>
+                                <p class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__2">
+                                    register and save time!</p>
+                                <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__2">
+                                    Register with us for future convenience</p>
+                                <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__2">
+                                    <i class="fas fa-angle-double-right"></i>
+                                    Fast and easy checkout</p>
+                                <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__3">
+                                    <i class="fas fa-angle-double-right"></i>
+                                    Easy access to your order history and status</p>
+                                <button class="checkout_shipping_address_guest_register_form_button">continue</button>
+                            </form>
+                        </div>
+                        <div class="checkout_shipping_address_login">
+                            <p class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                Already registed?</p>
+                            <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__4">
+                                Please log in below</p>
+                            <form class="checkout_shipping_address_login_form" action="">
+                                <label class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                    EMAIL ADDRESS<span class="checkout_span_red">*</span>
+                                </label>
+                                <input class="input_mar_bott checkout_shipping_address_login_mail_input" type="text">
+                                <label class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                    password<span class="checkout_span_red">*</span>
+                                </label>
+                                <input class="input_mar_bott checkout_shipping_address_login_mail_input" type="text">
+                                <p class="required_fields checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__red">
+                                    * Required Fileds</p>
+                                <div class="checkout_shipping_address_login_form_button">
+                                    <button class="checkout_shipping_address_guest_register_form_button">log in</button>
+                                    <a href="#" class="checkout_shipping_address_guest_register_form_forgot_password">Forgot
+                                        Password ?
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </details>
+            </div>
+            <div class="checkout_wrap">
+                <details class="checkout_details">
+                    <summary class="checkout_shipping_address_heading">05. PAYMENT METHOD</summary>
+                    <div class="checkout_shipping_address">
+                        <div class="checkout_shipping_address_guest_register">
+                            <p class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                Check as a guest or register</p>
+                            <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__1">
+                                Register with us for future convenience</p>
+                            <form class="checkout_shipping_address_guest_register_form" action="">
+                                <label class="checkout_shipping_address_guest_register_radio_label">
+                                    <input class="checkout_shipping_address_guest_register_radio"
+                                           name="guest_register" type="radio">checkout as guest
+                                </label>
+                                <label class="checkout_shipping_address_guest_register_radio_label">
+                                    <input class="checkout_shipping_address_guest_register_radio"
+                                           name="guest_register" type="radio" checked>register
+                                </label>
+                                <p class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__2">
+                                    register and save time!</p>
+                                <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__2">
+                                    Register with us for future convenience</p>
+                                <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__2">
+                                    <i class="fas fa-angle-double-right"></i>
+                                    Fast and easy checkout</p>
+                                <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__3">
+                                    <i class="fas fa-angle-double-right"></i>
+                                    Easy access to your order history and status</p>
+                                <button class="checkout_shipping_address_guest_register_form_button">continue</button>
+                            </form>
+                        </div>
+                        <div class="checkout_shipping_address_login">
+                            <p class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                Already registed?</p>
+                            <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__4">
+                                Please log in below</p>
+                            <form class="checkout_shipping_address_login_form" action="">
+                                <label class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                    EMAIL ADDRESS<span class="checkout_span_red">*</span>
+                                </label>
+                                <input class="input_mar_bott checkout_shipping_address_login_mail_input" type="text">
+                                <label class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                    password<span class="checkout_span_red">*</span>
+                                </label>
+                                <input class="input_mar_bott checkout_shipping_address_login_mail_input" type="text">
+                                <p class="required_fields checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__red">
+                                    * Required Fileds</p>
+                                <div class="checkout_shipping_address_login_form_button">
+                                    <button class="checkout_shipping_address_guest_register_form_button">log in</button>
+                                    <a href="#" class="checkout_shipping_address_guest_register_form_forgot_password">Forgot
+                                        Password ?
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </details>
+            </div>
+
+            <div class="checkout_wrap">
+                <details class="checkout_details">
+                    <summary class="checkout_shipping_address_heading">06. ORDER REVIEW</summary>
+                    <div class="checkout_shipping_address">
+                        <div class="checkout_shipping_address_guest_register">
+                            <p class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                Check as a guest or register</p>
+                            <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__1">
+                                Register with us for future convenience</p>
+                            <form class="checkout_shipping_address_guest_register_form" action="">
+                                <label class="checkout_shipping_address_guest_register_radio_label">
+                                    <input class="checkout_shipping_address_guest_register_radio"
+                                           name="guest_register" type="radio">checkout as guest
+                                </label>
+                                <label class="checkout_shipping_address_guest_register_radio_label">
+                                    <input class="checkout_shipping_address_guest_register_radio"
+                                           name="guest_register" type="radio" checked>register
+                                </label>
+                                <p class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__2">
+                                    register and save time!</p>
+                                <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__2">
+                                    Register with us for future convenience</p>
+                                <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__2">
+                                    <i class="fas fa-angle-double-right"></i>
+                                    Fast and easy checkout</p>
+                                <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__3">
+                                    <i class="fas fa-angle-double-right"></i>
+                                    Easy access to your order history and status</p>
+                                <button class="checkout_shipping_address_guest_register_form_button">continue</button>
+                            </form>
+                        </div>
+                        <div class="checkout_shipping_address_login">
+                            <p class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                Already registed?</p>
+                            <p class="checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__4">
+                                Please log in below</p>
+                            <form class="checkout_shipping_address_login_form" action="">
+                                <label class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                    EMAIL ADDRESS<span class="checkout_span_red">*</span>
+                                </label>
+                                <input class="input_mar_bott checkout_shipping_address_login_mail_input" type="text">
+                                <label class="checkout_shipping_address_guest_register_text_big checkout_shipping_address_guest_register_text_big__1">
+                                    password<span class="checkout_span_red">*</span>
+                                </label>
+                                <input class="input_mar_bott checkout_shipping_address_login_mail_input" type="text">
+                                <p class="required_fields checkout_shipping_address_guest_register_text_small checkout_shipping_address_guest_register_text_small__red">
+                                    * Required Fileds</p>
+                                <div class="checkout_shipping_address_login_form_button">
+                                    <button class="checkout_shipping_address_guest_register_form_button">log in</button>
+                                    <a href="#" class="checkout_shipping_address_guest_register_form_forgot_password">Forgot
+                                        Password ?
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </details>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="subscribe-flex">
+            <div class="subscribe-flex-opacity">
+                <div class="subscribe-text">
+                    <div class="subscribe-face"><img src="assets/img/subscribe-face.png" alt=""></div>
+                    <div class="subscribe-text-left">
+                        <p class="subscribe-text-left-1">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+                            pulvinar
+                            purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                        <p class="subscribe-text-left-2">Bin Burhan</p>
+                        <p class="subscribe-text-left-3">Dhaka, Bd</p>
+                        <div class="white-red-blocks">
+                            <div class="white-block"></div>
+                            <div class="red-block"></div>
+                        </div>
+                    </div>
+                    <div class="vert-line"></div>
+                    <div class="subscribe-right">
+                        <p class="subscribe-text-right-1">SUBSCRIBE</p>
+                        <p class="subscribe-text-right-2">FOR OUR NEWLETTER AND PROMOTION</p>
+                        <form class="form-subscribe" action="#">
+                            <input class="input-subscribe" type="email" placeholder="Enter Your Mail" required>
+                            <button class="submit-subscribe" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="sitemap-flex">
+            <div class="sitemap-1">
+                <div class="sitemap-1-1">
+                    <a class="logo" href="index.html"><img src="assets/img/logo.png" alt="Лого"><span
+                            class="logo-text">BRAN<span
+                            class="logo-text-D">D</span></span></a>
+                </div>
+                <p class="sitemap-1-text">Objectively transition extensive data rather than cross functional
+                    solutions.
+                    Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly
+                    syndicate
+                    an expanded array of processes and cross-unit partnerships.<br><br> Efficiently plagiarize
+                    24/365 action
+                    items and focused infomediaries. Distinctively seize superior initiatives for wireless
+                    technologies.
+                    Dynamically optimize.
+                </p>
+            </div>
+            <nav class="sitemap-2">
+                <a class="sitemap-items-first" href="#">COMPANY</a>
+                <ul class="sitemap-menu">
+                    <li><a class="sitemap-items" href="#">Home</a></li>
+                    <li><a class="sitemap-items" href="#">Shop</a></li>
+                    <li><a class="sitemap-items" href="#">About</a></li>
+                    <li><a class="sitemap-items" href="#">How It Works</a></li>
+                    <li><a class="sitemap-items" href="#">Contacts</a></li>
+                </ul>
+            </nav>
+            <nav class="sitemap-3">
+                <a class="sitemap-items-first" href="#">INFORMATION</a>
+                <ul class="sitemap-menu">
+                    <li><a class="sitemap-items" href="#">Terms & Conditions</a></li>
+                    <li><a class="sitemap-items" href="#">Privacy Policy</a></li>
+                    <li><a class="sitemap-items" href="#">How to Buy</a></li>
+                    <li><a class="sitemap-items" href="#">How to Sell</a></li>
+                    <li><a class="sitemap-items" href="#">Promotion</a></li>
+                </ul>
+            </nav>
+            <nav class="sitemap-4">
+                <a class="sitemap-items-first" href="#">SHOP CATEGORY</a>
+                <ul class="sitemap-menu">
+                    <li><a class="sitemap-items" href="#">Men</a></li>
+                    <li><a class="sitemap-items" href="#">Women</a></li>
+                    <li><a class="sitemap-items" href="#">Children</a></li>
+                    <li><a class="sitemap-items" href="#">Apparel</a></li>
+                    <li><a class="sitemap-items" href="#">Browse All</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footer_bottom">
+            <div class="footer-flex">
+                <p class="footer-all-rights">© 2018 Brand All Rights Reserved.</p>
+
+                <div class="social">
+                    <a class="social_link" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="social_link" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="social_link" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="social_link" href="#"><i class="fab fa-telegram-plane"></i></a>
+                    <a class="social_link" href="#"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="assets/js/jquery-3.3.1.js"></script>
+<script src="assets/js/product.js"></script>
+<script src="assets/js/cart.js"></script>
+<script src="assets/js/admin.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>
+
