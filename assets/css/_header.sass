@@ -1,0 +1,366 @@
+.header
+  height: 100px
+  border: 1px solid #ececec
+  background-color: #ffffff
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17)
+
+.header-flex
+  @extend .container
+  display: flex
+  justify-content: space-between
+  height: 100%
+
+.header-left
+  display: flex
+  align-items: center
+
+.header-right
+  display: flex
+  align-items: center
+
+.logo
+  display: flex
+  align-items: center
+  text-decoration: none
+  transition: $transition_hover
+
+.cart-icon:hover .cart_drop_menu
+  display: block
+
+.busket
+  display: block
+  position: relative
+  width: 32px
+  height: 29px
+  background-image: url(../img/cart.svg)
+  cursor: pointer
+  transition: $transition_hover
+  /*animation: anim1 6s linear*/
+
+.busket:hover
+  background-image: url(../img/cart-hover.svg)
+
+.my-acc
+  display: block
+  background-color: $color_1
+  width: 92px
+  height: 38px
+  text-decoration: none
+  padding-left: 19px
+  padding-right: 19px
+  line-height: 38px
+  margin-left: 26px
+  color: #ffffff
+  font-size: 15px
+  font-weight: 400
+  transition: all ease-out 3s
+
+
+.my-acc:hover
+  background-color: $color_2
+  /*transform: translate(260px,0)*/
+
+.logo-text
+  padding-left: 13px
+  color: $color_4
+  font-size: 27px
+  font-weight: 300
+  line-height: 32px
+  text-align: center
+
+.form
+  display: flex
+  margin-left: 37px
+
+.browse
+  border-bottom-left-radius: 3px
+  border-top-left-radius: 3px
+  border-style: solid
+  border-width: 1px
+  border-color: #e6e6e6
+  box-sizing: border-box
+  background: -webkit-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%)
+  background: -moz-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%)
+  background: -o-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%)
+  background: -ms-linear-gradient(-90deg, #f9f9f9 0%, #f5f5f5 100%)
+  background: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%)
+  width: 87px
+  height: 38px
+  color: $color_4
+  font-size: 14px
+  font-weight: 300
+  line-height: 38px
+  position: relative
+  padding-left: 12px
+  cursor: pointer
+  transition: display $transition_hover
+
+.browse:hover .drop_menu
+  display: block
+
+.input
+  border-bottom-right-radius: 3px
+  border-top-right-radius: 3px
+  border: solid 1px #e6e6e6
+  border-left-width: 0
+  box-sizing: border-box
+  background-color: #ffffff
+  width: 279px
+  height: 38px
+  color: #a4a4a4
+  font-size: 14px
+  font-weight: 300
+  line-height: 32px
+  text-align: left
+  padding-left: 16px
+  padding-right: 16px
+
+.submit
+  height: 38px
+  width: 38px
+  background-color: #ffffff
+  border: solid 1px #e6e6e6
+  border-left-width: 0
+  outline: none
+  cursor: pointer
+  transition: background-color $transition_hover
+
+.submit:hover
+  background-color: $color_5
+
+.drop_menu
+  position: absolute
+  display: none
+  top: 35px
+  left: -3px
+  width: 262px
+  border: solid 1px #e6e6e6
+  border-radius: 5px
+  background-color: #ffffff
+  padding-bottom: 10px
+  z-index: 1
+
+.drop_menu_head
+  color: #232323
+  font-size: 14px
+  font-weight: 400
+  line-height: 14px
+  text-transform: uppercase
+  letter-spacing: 0.35px
+  padding: 0
+  margin: 0
+  padding-left: 15px
+  padding-top: 19px
+
+.drop_menu_list
+  list-style-type: none
+  line-height: 28px
+
+.drop_menu_link
+  text-decoration: none
+  color: #4f4f4f
+  font-size: 14px
+  font-weight: 400
+  padding: 0
+  letter-spacing: 0.35px
+  transition: color $transition_hover
+
+.drop_menu_link:hover
+  color: $color_1
+
+.drop_menu_ul
+  margin: 0
+  padding-left: 20px
+  padding-top: 3px
+
+.drop_menu_hr
+  width: 236px
+  height: 1px
+  background-color: #e8e8e8
+  margin-top: 10px
+
+.drop_menu::after
+  content: ""
+  width: 7px
+  height: 7px
+  background-color: #ffffff
+  display: block
+  border-top: solid 1px #e6e6e6
+  border-left: solid 1px #e6e6e6
+  position: absolute
+  transform: rotate(45deg)
+  top: -5px
+  left: 66px
+
+.cart_drop_menu
+  z-index: 2
+  display: none
+  position: absolute
+  width: 262px
+  border-radius: 5px
+  border: solid 1px #e6e6e6
+  background-color: #ffffff
+  top: 70px
+
+.cart_drop_menu_count_goods
+  position: relative
+  top: -20px
+  left: 40px
+  color: #ff0000
+
+.cart_drop_menu_item
+  display: flex
+  padding-left: 17px
+  padding-top: 21px
+  padding-bottom: 21px
+  align-items: center
+  border-bottom: #9f9f9f 1px solid
+
+.cart_drop_menu_item_quan_x_price
+  display: flex
+  align-items: flex-end
+
+.cart_drop_menu_item_name_text
+  color: $color_4
+  font-size: 12px
+  font-weight: 700
+  text-transform: uppercase
+  padding-bottom: 10px
+  margin: 0
+
+.cart_drop_menu_item_name
+  width: 229px
+  text-decoration: none
+  transition: opacity $transition_hover
+
+.cart_drop_menu_item_name:hover
+  opacity: 0.3
+
+.cart_drop_menu_item_img
+  padding-right: 15px
+  width: 72px
+  height: 85px
+
+.cart_drop_menu_item_star
+  color: #e4af48
+  font-size: 12px
+  font-weight: 400
+  text-transform: uppercase
+  padding-bottom: 12px
+
+.cart_drop_menu_item_quant
+  color: $color_1
+  font-size: 12px
+  font-weight: 400
+  text-transform: uppercase
+  margin-right: 5px
+
+.cart_drop_menu_item_x
+  color: $color_1
+  font-size: 10px
+  font-weight: 400
+  text-transform: uppercase
+  margin-right: 5px
+
+.cart_drop_menu_item_price
+  color: $color_1
+  font-size: 12px
+  font-weight: 400
+  text-transform: uppercase
+
+.cart_drop_menu_delete
+  width: 15px
+  height: 15px
+  color: #c0c0c0
+  font-size: 16px
+  font-weight: 400
+  text-transform: uppercase
+  padding-right: 15px
+  transition: opacity $transition_hover
+
+.cart_drop_menu_delete:hover
+  opacity: 0.3
+
+.cart_drop_menu_hr
+  width: 229px
+  height: 1px
+  background-color: #ededed
+  margin: 16px 16px 0 16px
+
+.cart_drop_menu_total
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding-top: 21px
+  padding-left: 17px
+  padding-right: 17px
+
+.cart_drop_menu_total_text
+  color: $color_4
+  font-size: 16px
+  font-weight: 700
+  text-transform: uppercase
+
+.cart_drop_menu_total_summ
+  color: $color_4
+  font-size: 16px
+  font-weight: 700
+  text-transform: uppercase
+
+.cart_drop_menu_checkout
+  display: flex
+  align-items: center
+  justify-content: center
+  background-color: #ffffff
+  width: 225px
+  height: 50px
+  border: 1px solid $color_1
+  text-transform: uppercase
+  text-decoration: none
+  color: $color_1
+  font-size: 14px
+  font-weight: 700
+  margin: 0 auto
+  margin-top: 15px
+  transition: opacity $transition_hover
+
+.cart_drop_menu_checkout:hover
+  opacity: 0.3
+
+.cart_drop_menu_gotocart
+  display: flex
+  align-items: center
+  justify-content: center
+  background-color: #ffffff
+  width: 225px
+  height: 50px
+  border: 1px solid #eaeaea
+  text-transform: uppercase
+  text-decoration: none
+  color: #4a4a4a
+  font-size: 14px
+  font-weight: 700
+  margin: 0 auto
+  margin-top: 11px
+  margin-bottom: 20px
+  transition: opacity $transition_hover
+
+.cart_drop_menu_gotocart:hover
+  opacity: 0.3
+
+.cart_drop_menu::after
+  content: ''
+  width: 7px
+  height: 7px
+  background-color: #ffffff
+  display: block
+  border-top: solid 1px #e6e6e6
+  border-left: solid 1px #e6e6e6
+  position: absolute
+  transform: rotate(45deg)
+  top: -5px
+  left: 12px
+
+
+
+

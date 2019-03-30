@@ -1,0 +1,326 @@
+.product_details
+  @extend .container
+  display: flex
+  flex-direction: column
+  margin-top: 90px
+  margin-bottom: 79px
+
+.product_details_item
+  th
+    text-transform: uppercase
+    padding-bottom: 20px
+    border-bottom: 1px solid #eaeaea
+  td
+    padding: 22px 0 22px 0
+    border-bottom: 1px solid #eaeaea
+
+.product_details_item_th_left
+  text-align: left
+
+.product_details_item_th_center
+  text-align: center
+
+.product_details_item
+  width: $cont_width
+
+.product_details_item_name
+  display: flex
+  justify-content: space-between
+
+.product_details_item_name_link
+  display: flex
+  text-decoration: none
+
+.product_details_item_name_img
+  width: 100px
+  height: 115px
+  margin-right: 21px
+  transition: $transition_hover
+
+.product_details_item_name_img:hover
+  transform: scale(3)
+
+.product_details_item_name_text
+  display: flex
+  flex-direction: column
+  margin-top: 13px
+  transition: opacity $transition_hover
+  p
+    margin: 0
+
+.product_details_item_name_text:hover
+  opacity: 0.3
+
+.product_details_item_name_text_1
+  color: #222222
+  font-size: 13px
+  font-weight: 700
+  text-transform: uppercase
+  padding-bottom: 38px
+
+.product_details_item_name_text_2
+  color: #6f6e6e
+  font-size: 13px
+  font-weight: 300
+  line-height: 25px
+  span
+    font-weight: 700
+
+.product_details_item_name_text_3
+  color: #6f6e6e
+  font-size: 13px
+  font-weight: 300
+  span
+    font-weight: 700
+
+.product_details_item_name_price
+  color: #656565
+  font-size: 13px
+  font-weight: 400
+
+.product_details_item_name_quan
+  input
+    width: 54px
+    height: 30px
+    border: 1px solid #eaeaea
+    text-align: center
+    color: #656565
+    font-size: 13px
+    font-weight: 400
+
+.product_details_item_name_ship
+  color: #656565
+  font-size: 13px
+  font-weight: 400
+  text-transform: uppercase
+
+.product_details_item_name_subtotal
+  color: #656565
+  font-size: 13px
+  font-weight: 400
+  text-transform: uppercase
+
+.product_details_item_name_action
+  font-size: 16px
+  font-weight: 400
+  color: $color_5
+  transition: color $transition_hover
+
+.product_details_item_name_action:hover
+  color: #000000
+
+.product_details_clear_continue
+  display: flex
+  justify-content: space-between
+  margin-top: 44px
+
+.product_details_clear_continue_item
+  display: flex
+  justify-content: center
+  align-items: center
+  text-decoration: none
+  text-transform: uppercase
+  color: #4a4a4a
+  font-size: 14px
+  font-weight: 700
+  width: 235px
+  height: 50px
+  border: 1px solid #eaeaea
+  margin-bottom: 63px
+  transition: background, color $transition_hover
+
+.clear_shopping_card
+  cursor: pointer
+
+.product_details_clear_continue_item:hover
+  background: $color_2
+  color: #ffffff
+
+.product_details_shipping_coupon_grandtotal
+  display: flex
+  justify-content:  space-between
+
+.product_details_shipping_address
+  display: flex
+
+.product_details_shipping_address_form
+  display: flex
+  flex-direction: column
+  p
+    margin: 0
+    padding-bottom: 22px
+    color: #222222
+    font-size: 16px
+    font-weight: 700
+    text-transform: uppercase
+
+.product_details_shipping_country
+  width: 355px
+  height: 45px
+  border: 1px solid #eaeaea
+  font-size: 13px
+  font-weight: 300
+  padding-left: 18px
+  margin-bottom: 20px
+
+
+.product_details_shipping_state
+  box-sizing: border-box
+  width: 355px
+  height: 45px
+  border: 1px solid #eaeaea
+  color: #b1b1b1
+  font-size: 13px
+  font-weight: 300
+  padding-left: 18px
+  padding-right: 18px
+  margin-bottom: 20px
+  margin-right: 0
+
+
+.product_details_shipping_postcode
+  box-sizing: border-box
+  width: 355px
+  height: 45px
+  border: 1px solid #eaeaea
+  color: #b1b1b1
+  font-size: 13px
+  font-weight: 300
+  padding-left: 18px
+  padding-right: 18px
+  margin-right: 0
+  margin-bottom: 23px
+
+.product_details_shipping_address_form_button
+  padding: 0 18px 0 18px
+  height: 35px
+  width: fit-content
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  text-transform: uppercase
+  color: #4a4a4a
+  font-size: 11px
+  font-weight: 700
+  cursor: pointer
+  transition: background, color $transition_hover
+
+.product_details_shipping_address_form_button:hover
+  background: $color_2
+  color: #ffffff
+
+.product_details_coupon
+  display: flex
+
+.product_details_coupon_form
+  display: flex
+  flex-direction: column
+
+.product_details_coupon_text
+  margin: 0
+  padding-bottom: 28px
+  color: #222222
+  font-size: 16px
+  font-weight: 700
+  text-transform: uppercase
+
+.product_details_coupon_text_small
+  margin: 0
+  color: #000000
+  font-size: 14px
+  font-weight: 300
+
+.product_details_coupon_state
+  margin-top: 24px
+  width: 319px
+  height: 45px
+  border: 1px solid #eaeaea
+  color: #b1b1b1
+  font-size: 13px
+  font-weight: 300
+  padding-left: 18px
+  padding-right: 18px
+  margin-bottom: 25px
+  margin-right: 0
+
+.product_details_coupon_form_button
+  padding: 0 18px 0 18px
+  height: 35px
+  width: fit-content
+  border: 1px solid #eaeaea
+  background-color: #ffffff
+  text-transform: uppercase
+  color: #4a4a4a
+  font-size: 11px
+  font-weight: 700
+  cursor: pointer
+  transition: background, color $transition_hover
+
+.product_details_coupon_form_button:hover
+  background: $color_2
+  color: #ffffff
+
+.product_details_grandtotal
+  display: flex
+  flex-direction: column
+  align-items: center
+  width: 360px
+  height: 214px
+  background-color: #f5f3f3
+
+.product_details_shipping_coupon_grandtotal_string_1
+  display: flex
+  justify-content: flex-end
+  box-sizing: border-box
+  width: 360px
+  color: #4a4a4a
+  font-size: 11px
+  font-weight: 400
+  text-transform: uppercase
+  margin-bottom: 14px
+  margin-top: 40px
+  padding-right: 40px
+  p
+    margin: 0
+    padding-right: 15px
+
+.product_details_shipping_coupon_grandtotal_string_2
+  display: flex
+  justify-content: flex-end
+  box-sizing: border-box
+  width: 360px
+  color: #222222
+  font-size: 16px
+  font-weight: 700
+  text-transform: uppercase
+  padding-right: 40px
+  p
+    margin: 0
+    padding-right: 15px
+
+.product_details_shipping_coupon_grandtotal_string_2_sum
+  color: #f16d7f
+
+.product_details_shipping_coupon_grandtotal_hr
+  margin-top: 22px
+  margin-bottom: 17px
+  width: 275px
+  height: 1px
+  background-color: #e2e2e2
+
+.product_details_shipping_coupon_grandtotal_checkout
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 273px
+  height: 50px
+  background-color: $color_1
+  text-decoration: none
+  color: #ffffff
+  font-size: 16px
+  font-weight: 700
+  text-transform: uppercase
+  cursor: pointer
+  transition: background-color $transition_hover
+
+.product_details_shipping_coupon_grandtotal_checkout:hover
+  background-color: $color_2

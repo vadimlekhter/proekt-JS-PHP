@@ -1,0 +1,135 @@
+.containerFeed
+  width: $cont_width
+  margin: 0 auto
+  display: flex
+  flex-direction: column
+  align-items: center
+  min-height: 200px
+  overflow-x: scroll
+  margin-bottom: 50px
+
+.feedbacks
+  display: flex
+  width: 1000px
+  margin-top: 50px
+
+.feedItemSite
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  min-width: 300px
+  max-width: 300px
+  height: 200px
+  overflow-y: scroll
+  margin-bottom: 70px
+  margin-right: 70px
+  border: $color_5 1px solid
+  border-radius: 10px 10px 10px 10px
+  padding: 15px
+
+.feedItemAuthorSite
+  color: $color_1
+  margin-bottom: 30px
+
+.feedItemTextSite
+  display: flex
+
+.send
+  margin: 0 auto
+  display: flex
+  width: $cont_width
+  justify-content: flex-end
+
+.formFeed
+  display: flex
+  flex-direction: column
+  width: 600px
+
+.name
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-bottom: 30px
+
+.text
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-bottom: 30px
+
+.input_text
+  width: 400px
+  padding: 5px 10px 5px 10px
+  border: $color_5 1px solid
+
+.text_area
+  margin-left: 10px
+  width: 400px
+  padding: 5px 10px 5px 10px
+  border: $color_5 1px solid
+
+.adminBtns
+  display: flex
+  justify-content: flex-end
+
+
+.btnSendMsg
+  display: flex
+  align-self: flex-end
+  width: 100px
+  height: 50px
+  justify-content: center
+  cursor: pointer
+  color: $color_1
+  background-color: white
+  transition: $transition_hover
+  border: $color_5 1px solid
+  margin-right: 15px
+
+.btnSendClr
+  display: flex
+  align-self: flex-end
+  width: 100px
+  height: 50px
+  justify-content: center
+  cursor: pointer
+  color: $color_1
+  background-color: white
+  transition: $transition_hover
+  border: $color_5 1px solid
+
+.btnSendMsg:hover
+  background-color: $color_2
+
+.btnSendClr:hover
+  background-color: $color_2
+
+.admin
+  background-color: #dddddd
+  margin: 0 auto
+  display: flex
+  flex-direction: column
+  width: auto
+  align-items: center
+  margin-top: 50px
+
+.feedItemAdmin
+  display: grid
+  grid-template-columns: 50px 100px 700px 130px 130px 130px
+  margin-bottom: 20px
+  border-bottom: 1px solid
+  padding: 10px 0 10px 0
+
+.feedItemId
+  text-align: center
+
+.itemBtnAdd, .itemBtnRemove, .itemBtnApprove
+  width: auto
+  height: 50px
+  margin: 0 10px 0 10px
+
+.approved
+  background-color: #fffe27
+
+.added
+  background-color: #9fff9d
