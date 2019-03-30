@@ -1,0 +1,403 @@
+.choosed_goods
+  display: flex
+
+.choosed_goods_margin
+  @extend .container
+  margin-top: 59px
+
+.cat_brand_designer_choose
+  display: flex
+  flex-direction: column
+
+.choosed_goods_right
+  display: flex
+  flex-direction: column
+
+.trend_size_price_choose
+  display: flex
+  margin-bottom: 31px
+
+.sort_show_choose
+  z-index: 1
+  display: flex
+  align-items: center
+  width: 855px
+  height: 50px
+  background-color: #f3f3f3
+  margin-bottom: 48px
+
+.sort_choose
+  display: flex
+  padding-left: 13px
+  margin-right: 10px
+
+.show_choose
+  display: flex
+
+.pages_view_product
+  display: flex
+  justify-content: space-between
+
+.summary_cat_brand_designer_choose
+  display: flex
+  outline: none
+  padding-left: 11px
+  padding-top: 8px
+  padding-bottom: 8px
+  margin-bottom: 22px
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 700
+  line-height: 20px
+  border-left: 5px solid $color_3
+
+.summary_cat_brand_designer_choose::-webkit-details-marker
+  display: none
+  transition: color $transition_hover
+
+.summary_cat_brand_designer_choose:hover
+  color: $color_2
+  cursor: pointer
+
+.summary_cat_brand_designer_choose::after
+  width: 287px
+  display: flex
+  justify-content: flex-end
+  content: '\25bc'
+  color: #6f6e6e
+  margin-right: 57px
+
+.details_cat_brand_designer_choose[open] > summary:after
+  content: '\25b2'
+  color: $color_3
+
+.details_cat_brand_designer_choose[open] > .summary_cat_brand_designer_choose
+  color: $color_3
+
+.details_sort_show_choose[open] > summary:after
+  content: '\25b2'
+  color: $color_3
+
+.details_sort_show_choose[open] > .summary_cat_brand_designer_choose
+  color: $color_3
+
+.cat_choose
+  display: flex
+  width: 287px
+
+.brand_choose
+  display: flex
+  width: 287px
+
+.designer_choose
+  display: flex
+  width: 287px
+
+.details_cat_brand_designer_choose
+  width: 287px
+  padding-bottom: 18px
+
+.cat_brand_designer_choode_item_link
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 400
+  line-height: 33px
+  text-decoration: none
+  transition: color $transition_hover
+
+.cat_brand_designer_choode_item_link:hover
+  color: $color_2
+  cursor: pointer
+
+.cat_brand_designer_choode_item
+  margin: 0
+
+.trend_choose_head
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 700
+  line-height: 20px
+  margin: 0
+  padding-bottom: 14px
+
+.trend_choose
+  width: 176px
+  padding-top: 5px
+  margin-right: 114px
+
+.size_choose
+  width: 294px
+  padding-top: 5px
+
+.price_choose
+  display: flex
+  width: 262px
+
+.trend_choose_item_link
+  text-decoration: none
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 400
+  line-height: 26px
+  transition: color $transition_hover
+
+.trend_choose_item_link:hover
+  color: $color_5
+
+.size_choose_head
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 700
+  line-height: 20px
+  margin: 0
+  padding-bottom: 14px
+
+.size_choose_part
+  display: flex
+  flex-direction: column
+  width: 80px
+  margin: 0
+
+.size_choose_big
+  display: flex
+
+.size_choose_part_small
+  padding-bottom: 10px
+  font-family: OpenSans
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 400
+  line-height: 20px
+  transition: color $transition_hover
+
+.size_choose_part_small:hover
+  color: $color_5
+
+.size_choose_part_small input
+  font-family: OpenSans
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 400
+  line-height: 20px
+
+.price_choose_head
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 700
+  line-height: 20px
+  margin: 0
+  padding-bottom: 14px
+
+.sort_choose_1
+  display: flex
+  justify-content: center
+  align-items: center
+  border: solid 1px #ebebeb
+  border-right-style: none
+  box-sizing: border-box
+  background-color: #ffffff
+  width: 70px
+  height: 30px
+
+.sort_choose_1_head
+  margin: 0
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 400
+  line-height: 26px
+
+.sort_choose_2
+  display: flex
+  justify-content: space-around
+  align-items: center
+  border: solid 1px #ebebeb
+  box-sizing: border-box
+  background-color: #ffffff
+  width: 83px
+  height: 30px
+
+.show_choose_1
+  display: flex
+  justify-content: center
+  align-items: center
+  border: solid 1px #ebebeb
+  border-right-style: none
+  box-sizing: border-box
+  background-color: #ffffff
+  width: 50px
+  height: 30px
+
+.show_choose_2
+  display: flex
+  justify-content: center
+  align-items: center
+  border: solid 1px #ebebeb
+  box-sizing: border-box
+  background-color: #ffffff
+  width: 69px
+  height: 30px
+
+.show_choose_1_head
+  margin: 0
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 400
+  line-height: 26px
+
+.summary_sort_show_choose
+  display: flex
+  outline: none
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 400
+  line-height: 14px
+
+.summary_sort_show_choose::-webkit-details-marker
+  display: none
+  transition: color $transition_hover
+
+.summary_sort_show_choose:hover
+  color: $color_2
+  cursor: pointer
+
+.summary_sort_show_choose::after
+  display: flex
+  content: '\25bc'
+  color: #6f6e6e
+
+details[open] > .summary_sort_show_choose
+  color: $color_3
+
+
+
+.sort_show_choose_item_link
+  display: block
+  color: #6f6e6e
+  font-size: 14px
+  font-weight: 400
+  line-height: 20px
+  text-decoration: none
+  transition: color $transition_hover
+
+.sort_show_choose_item_link:hover
+  color: $color_2
+  cursor: pointer
+
+.details_sort_show_choose
+  display: block
+  background-color: #ffffff
+
+
+.pages_view_product_left
+  display: flex
+  justify-content: space-between
+  align-items: center
+  border-radius: 3px
+  border-style: solid
+  border-width: 1px
+  border-color: #ebebeb
+  box-sizing: border-box
+  background-color: #ffffff
+  width: 261px
+  height: 44px
+  margin-bottom: 110px
+
+.pages_view_product_left_item_link
+  display: block
+  text-decoration: none
+  color: #c4c4c4
+  font-size: 16px
+  line-height: 26px
+  padding-right: 8px
+  padding-left: 8px
+  transition: color $transition_hover
+
+.pages_view_product_left_item_link:hover
+  color: $color_3
+
+.pages_view_product_left_item_link span
+  color: $color_3
+  font-weight: 900
+
+.pages_view_product_right
+  display: flex
+  justify-content: center
+  align-items: center
+  border-radius: 3px
+  border-style: solid
+  border-width: 1px
+  border-color: $color_3
+  box-sizing: border-box
+  background-color: #ffffff
+  width: 150px
+  height: 44px
+  transition: background-color $transition_hover
+
+.pages_view_product_right:hover
+  background-color: $color_2
+
+
+.pages_view_product_right_item_link
+  display: block
+  padding: 14px 45px 14px 45px
+  margin: 0
+  color: $color_3
+  font-size: 16px
+  font-weight: 500
+  line-height: 16px
+  text-decoration: none
+
+.sort_show_choose_item
+  display: flex
+  justify-content: center
+  background-color: #ffffff
+
+.discount-product
+  display: flex
+  height: 341px
+  width: $full_width
+  background-color: #222224
+  margin: 0 auto
+
+.discount-product-text-1
+  margin: 0
+  margin-bottom: 17px
+  color: #fbfbfb
+  font-size: 20px
+  font-weight: 700
+  text-align: center
+
+.discount-product-text-2
+  margin: 0
+  color: #fbfbfb
+  font-size: 14px
+  font-weight: 300
+  line-height: 24px
+  text-align: center
+
+.discount-item
+  width: 308px
+  height: 138px
+
+.discount-product-item
+  display: flex
+  flex-direction: column
+  align-items: center
+  width: 308px
+  height: 138px
+
+.discount-product-image-1
+  margin-bottom: 32px
+
+.discount-product-image-2
+  margin-bottom: 23px
+
+.discount-product-image-3
+  margin-bottom: 29px
+
+.discount-product-wrap
+  width: 1088px
+  display: flex
+  justify-content: space-between
+  padding-top: 89px
+  margin: 0 auto

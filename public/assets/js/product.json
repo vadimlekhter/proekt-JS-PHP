@@ -1,0 +1,84 @@
+{
+  "contents": [
+    {
+      "id_product": 1,
+      "product_img": "assets/img/feat-item-1.png",
+      "product_name": "MANGO PEOPLE T-SHIRT",
+      "color": "Red",
+      "size": "XXL",
+      "price": 10.00,
+      "quantity": 1,
+      "shipping": "FREE"
+    },
+    {
+      "id_product": 2,
+      "product_img": "assets/img/feat-item-2.png",
+      "product_name": "MANGO PEOPLE T-SHIRT",
+      "color": "Blue",
+      "size": "XL",
+      "price": 20.00,
+      "quantity": 1,
+      "shipping": "FREE"
+    },
+    {
+      "id_product": 3,
+      "product_img": "assets/img/feat-item-3.png",
+      "product_name": "MANGO PEOPLE T-SHIRT",
+      "color": "Green",
+      "size": "L",
+      "price": 30.00,
+      "quantity": 1,
+      "shipping": "FREE"
+    },
+    {
+      "id_product": 4,
+      "product_img": "assets/img/feat-item-4.png",
+      "product_name": "MANGO PEOPLE T-SHIRT",
+      "color": "Yellow",
+      "size": "XL",
+      "price": 40.00,
+      "quantity": 1,
+      "shipping": "FREE"
+    },
+    {
+      "id_product": 5,
+      "product_img": "assets/img/feat-item-5.png",
+      "product_name": "MANGO PEOPLE T-SHIRT",
+      "color": "Brown",
+      "size": "XL",
+      "price": 50.00,
+      "quantity": 1,
+      "shipping": "FREE"
+    },
+    {
+      "id_product": 6,
+      "product_img": "assets/img/feat-item-6.png",
+      "product_name": "MANGO PEOPLE T-SHIRT",
+      "color": "Black",
+      "size": "XL",
+      "price": 60.00,
+      "quantity": 1,
+      "shipping": "FREE"
+    },
+    {
+      "id_product": 7,
+      "product_img": "assets/img/feat-item-7.png",
+      "product_name": "MANGO PEOPLE T-SHIRT",
+      "color": "Orange",
+      "size": "XL",
+      "price": 70.00,
+      "quantity": 1,
+      "shipping": "FREE"
+    },
+    {
+      "id_product": 8,
+      "product_img": "assets/img/feat-item-8.png",
+      "product_name": "MANGO PEOPLE T-SHIRT",
+      "color": "White",
+      "size": "XL",
+      "price": 80.00,
+      "quantity": 1,
+      "shipping": "FREE"
+    }
+  ]
+}

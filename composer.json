@@ -1,0 +1,17 @@
+{
+    "name": "proekt/shop",
+    "description": "Shop project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "vadimlekhter",
+            "email": "v_lehter@mail.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": ""
+        }
+    }
+}
